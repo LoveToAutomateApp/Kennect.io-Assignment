@@ -1,0 +1,151 @@
+{
+    "redirection_url":{
+       "url":"https://gor-pathology.web.app/doctors"
+    },
+
+    "login_form_elements":{
+       "user_email_field":"input[name='email']",
+       "user_password_field":"input[name= 'password']",
+       "user_login_submit":"button.MuiButton-containedPrimary"
+    },
+
+    "dashboard_elements":{
+        "side_bar_list":"div.MuiDrawer-paperAnchorLeft > div > div > ul > a"
+    },
+
+    "dashboard_data":{
+        "label_dashboard":"Dashboard",
+        "label_tests":"Tests",
+        "label_inventory":"Inventory",
+        "label_patients":"Patients",
+        "label_labs":"Labs",
+        "label_doctors":"Doctors"
+    },
+
+   "test_element":{
+    "manage_test_cta":"div.MuiContainer-root > div:nth-Child(1) > a:nth-Child(2)  > button",
+    "manage_test_search_field":"input[placeholder='Search']",
+    "add_test_cta":"div.MuiContainer-root > div:nth-Child(1) > a:nth-Child(2)  > button",
+    "add_patients_test_cta":"div.MuiContainer-root > div:nth-Child(1) > a:nth-Child(3)  > button",
+    "test_name_field":"input[name='name']",
+    "test_sample_drop_down":"div#mui-component-select-sample_type",
+    "test_sample_list_options":"div.MuiPopover-paper > ul > li",
+    "test_sample_volume_drop_down":"div#mui-component-select-sample_volume",
+    "test_sample_volume_list_options":"div.MuiPopover-paper > ul > li",
+    "test_sample_mode_drop_down":"div#mui-component-select-sample_mode",
+    "test_sample_mode_list_options":"div.MuiPopover-paper > ul > li",
+    "test_charges_field":"input[name='amount']",
+    "add_test_submit":"div.MuiCardContent-root > form > div.MuiBox-root > button:nth-Child(2)",
+    "cancel_test":"div.MuiCardContent-root > form > div.MuiBox-root > button:nth-Child(1)"
+   },
+   "test_data":{
+     "label_manage_test":"MANAGE TESTS",
+     "label_add_patient_test":"ADD PATIENT'S TEST",
+     "label_test_name":"qwerty",
+     "label_sample_type_none":"None",
+     "label_sample_type_serum":"SERUM",
+     "label_sample_type_edta_blood":"EDTA BLOOD",
+     "label_sample_type_dbs_card":"DBS CARD",
+     "label_sample_type_fluoride":"FLUORIDE",
+     "label_sample_type_fluoride_plasma":"FLUORIDE PLASMA",
+     "label_sample_type_serum_or_urine":"SERUM/URINE",
+     "label_sample_type_urine":"URINE",
+     "label_volume_none":"None",
+     "label_1ml":"1ml",
+     "label_2ml":"2ml",
+     "label_3ml":"3ml",
+     "label_1_drop":"1 drop",
+     "label_2_drop":"2 drop",
+     "label_3_drop":"3 drop",
+     "label_sample_mode_none":"None",
+     "label_sample_mode_fasting":"FASTING",
+     "label_sample_mode_non_fasting":"NON FASTING"
+   },
+   "labs_elements":{
+     "add_lab_cta":"div.MuiContainer-root > div > a > button",
+     "lab_search_field":"input[placeholder='Search']",
+     "lab_name_field":"input[name='name']",
+     "lab_email_field":"input[name='email']",
+     "lab_phone_field":"input[name='phone']",
+     "lab_form1_submit":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(2)",
+     "lab_form1_cancel":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(1)",
+     "lab_website_field":"input[name='website']",
+     "lab_address_field":"input[name='address']",
+     "lab_city_field":"input[name='city']",
+     "lab_pincode_field":"input[name='pinzip']",
+     "lab_state_field":"input[name='state']",
+     "lab_form2_submit":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(2)",
+     "lab_form2_cancel":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(1)",
+     "lab_test_search_field":"input[placeholder='Search']",
+     "lab_test_select_test_input_checkbox":"table.MuiTable-root > thead > tr > th > span > span > input",
+     "lab_form3_submit":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(2)",
+     "lab_form3_cancel":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(1)"
+   },
+    "doctor_elements":{
+      "add_doctor_cta":"div.MuiContainer-root > div > a > button",
+      "doctor_search_field":"input[placeholder='Search']",
+      "doctor_name_field":"input[name='name']",
+      "doctor_email_field":"input[name='email']",
+      "doctor_phone_field":"input[name='phone']",
+      "doctor_form1_submit":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(2)",
+      "doctor_form1_cancel":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(1)",
+      "doctor_highest_qualification_field":"input[name='hq']",
+      "doctor_specialization_field":"input[name='specialization']",
+      "doctor_clinic_name_field":"input[name='hc']",
+      "doctor_clinic_address_field":"input[name='address']",
+      "doctor_pinzip_field":"input[name='pinzip']",
+      "doctor_city_field":"input[name='city']",
+      "doctor_form2_submit":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(2)",
+      "doctor_form2_cancel":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(1)",
+      "doctor_form3_submit": "div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(2)",
+      "doctor_form3_cancel":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(1)"
+    },
+    "inventory_elements":{
+      "add_equipment_cta":"div.MuiContainer-root > div > a > button",
+      "equipment_name_field":"input[name='name']",
+      "equipment_description_field": "textarea[name='description']",
+      "equipment_total_field":"input[name='total']",
+      "add_equipment_submit":"div.MuiCardContent-root > form > div > button:nth-Child(2)",
+      "add_equipment_cancel":"div.MuiCardContent-root > form > div > button:nth-Child(1)"   
+    },
+    "patient_elements":{
+      "patient_search_field":"input[placeholder='Search']",
+      "add_patient_cta_button":"div.MuiContainer-root > div > a > button",
+      "patient_name_field":"input[name='name']",
+      "patient_email_field":"input[name='email']",
+      "patient_phone_field":"input[name='phone']",
+      "patient_form1_submit":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(2)",
+      "patient_form1_cancel":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(1)",
+      "patient_height_field":"input[name='height']",
+      "patient_weight_field":"input[name='weight']",
+      "patient_gender_dropdown":"div#mui-component-select-gender",
+      "patient_age_field":"input[name='age']",
+      "patient_systolic_field":"input[name='systolic']",
+      "patient_diastolic_field":"input[name='diastolic']",
+      "patient_form2_submit":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(2)",
+      "patient_form2_cancel":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(1)",
+      "patient_discount_drop_down_arrow":"div.MuiPaper-elevation1 > div > div:nth-Child(1) > div:nth-Child(1) > div:nth-Child(2) > div:nth-Child(2) > div > div",
+      "patient_doctors_discount_drop_down_arrow":"div.MuiPaper-elevation1 > div > div:nth-Child(1) > div:nth-Child(2) > div:nth-Child(3) > div > div ",
+      "patient_equipment_add_button":"button[title='Add equipment']",
+      "patient_equipment_save_button":"button[title='Save']",
+      "patient_form3_submit":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(2)",
+      "patient_form3_cancel":"div.MuiCardContent-root > div:nth-Child(2) > div:nth-Child(2) > button:nth-Child(1)"
+    },
+    "patient_data":{
+      "label_gender_none":"None",
+      "label_gender_male":"Male",
+      "label_gender_female":"Female",
+      "label_discount_none":"None",
+      "label_discount_five_percent":"5%",
+      "label_discount_ten_percent":"10%",
+      "label_discount_fifteen_percent":"15%",
+      "label_discount_twenty_percent":"20%",
+      "label_doctors_comission_none":"None",
+      "label_doctors_comission_ten_percent":"10%",
+      "label_doctors_comission_twenty_percent":"20%",
+      "label_doctors_comission_thirty_percent":"30%",
+      "label_doctors_comission_fourty_percent":"40%",
+      "label_doctors_comission_fifty_percent":"50%",
+      "label_doctors_comission_sixty_percent":"60%"
+    }
+}
